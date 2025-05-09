@@ -6,11 +6,21 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Smith Lab',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/cralbers/smithlab-planet' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Hi',
+					autogenerate: { directory: 'hi' },
+					// items: [
+						// Each item here is one entry in the navigation menu.
+						// { label: 'Example Guide', slug: 'guides/example' },
+					// ]
+					
+				},
+				// @ts-ignore
+				{
+					label: 'Protocols',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
