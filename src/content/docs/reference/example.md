@@ -1,5 +1,5 @@
 ---
-title: Example Reference
+title: so you want to be an undergrad researcher
 description: A reference page in my new Starlight docs site.
 ---
 
