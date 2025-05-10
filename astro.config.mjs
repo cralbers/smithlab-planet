@@ -34,5 +34,5 @@ export default defineConfig({
         ],
 		}), icon()],
         site: 'https://cralbers.github.io',
-        base: 'smithlab-planet',
+        base: '/smithlab-planet',
 });
